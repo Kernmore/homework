@@ -1,5 +1,8 @@
 package students;
 
+import java.io.File;
+import java.io.IOException;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -32,19 +35,36 @@ public class Main {
         } catch (StudentNotFoundException e){
             e.printStackTrace();
         }
-        System.out.println(group.toString());
+//        System.out.println(group.toString());
+//
+//        group.sortStudentsByName();
+//
+//        StudentScanner st = new StudentScanner();
+//        System.out.println(st.toString());
+//        try {
+//            group.addStudent(st.getSt());
+//        } catch (GroupOverflowException e) {
+//            e.printStackTrace();
+//        }
+//        CSVStringConverter csv = new CSVStringConverter();
+//        String s = csv.toStringRepresentation(student1);
+//        System.out.println(csv.fromStringRepresentation(s));
 
-        group.sortStudentsByName();
 
-        StudentScanner st = new StudentScanner();
-        System.out.println(st.toString());
+        GroupFileStorage gfs = new GroupFileStorage();
+        Group grp;
+        File file = new File(group.getGroupName() + ".csv");
         try {
-            group.addStudent(st.getSt());
-        } catch (GroupOverflowException e) {
-            e.printStackTrace();
+            gfs.saveGroupToCSV(group);
+            grp = gfs.loadGroupFromCSV(file);
+        } catch (GroupOverflowException | IOException e) {
+            throw new RuntimeException(e);
         }
-        CSVStringConverter csv = new CSVStringConverter();
-        String s = csv.toStringRepresentation(student1);
-        System.out.println(csv.fromStringRepresentation(s));
+
+        File directory = new File(System.getProperty("user.dir"));
+
+        System.out.println(grp.toString());
+        gfs.findFileByGroupName(group.getGroupName(), directory);
+
     }
 }

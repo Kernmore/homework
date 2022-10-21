@@ -127,6 +127,6 @@ public class Group {
                 result += array[i].getName() + "\n";
             }
         }
-        return "\nThe list of students: \n" + result;
+        return "\nThe list of students of " + groupName + ": \n" + result;
     }
 }
