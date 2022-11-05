@@ -1,12 +1,11 @@
 package students;
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 public class Group {
     private String groupName;
-    private Student[] students = new Student[10];
-    private int amount;
+    private final int DEFAULT_SIZE = 10;
+    private List<Student> students = new ArrayList<>();
 
     public Group(String groupName) {
         this.groupName = groupName;
@@ -16,7 +15,7 @@ public class Group {
         return groupName;
     }
 
-    public Student[] getStudents() {
+    public List<Student> getStudents() {
         return students;
     }
 
@@ -24,109 +23,66 @@ public class Group {
         this.groupName = groupName;
     }
 
-    public void setStudents(Student[] students) {
+    public void setStudents(List<Student> students) {
         this.students = students;
     }
 
     public void addStudent(Student student) throws GroupOverflowException {
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] == null) {
-                students[i] = student;
-                students[i].setGroupName(groupName);
-                amount++;
-                return;
-            }
+        if(students.size() < DEFAULT_SIZE) {
+            students.add(student);
+        } else {
+            throw new GroupOverflowException("No place in the group");
         }
-        throw new GroupOverflowException("No place in the group");
     }
 
     public Student searchStudentByLastName(String lastName) throws StudentNotFoundException {
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] != null && students[i].getLastName().equals(lastName)) {
-                return students[i];
+        for (Student st :
+                students) {
+            if(st.getLastName().equals(lastName)){
+                return st;
             }
         }
         throw new StudentNotFoundException("No such student in the group");
     }
 
     public boolean removeStudentByID(int id) {
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] != null && students[i].getId() == id) {
-                students[i] = null;
-                amount--;
+        for (Student st :
+                students) {
+            if (st.getId() == id){
+                students.remove(st);
                 return true;
             }
         }
         return false;
     }
 
-    private Student[] sort() {
-
-        Student temp;
-        boolean sort = false;
-        int count = 0;
-        Student[] array = new Student[amount];
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] != null) {
-                array[count] = students[i];
-                count++;
-            }
-        }
-
-        while (!sort) {
-            sort = true;
-
-            for (int j = 0; j < array.length - 1; j++) {
-
-                if (checkLastName(array[j], array[j + 1]) == array[j]) {
-                    temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
-                    sort = false;
-                }
-            }
-
-        }
-        return array;
+    private void sort() {
+        Collections.sort(students, new StudentComparator());
     }
 
-
-    private Student checkLastName(Student st, Student stu) {
-        String one = st.getLastName();
-        String two = stu.getLastName();
-        int length = Math.min(one.length(), two.length());
-        for (int i = 0; i < length; i++) {
-            if (one.charAt(i) == two.charAt(i)) {
-                continue;
-            } else if (one.charAt(i) > two.charAt(i)) {
-                return st;
-            } else {
-                return stu;
-            }
-        }
-        return st;
-    }
 
     public void sortStudentsByName(){
-        Arrays.sort(students, Comparator.nullsLast(new StudentNameComparator()));
+        Collections.sort(students, new StudentNameComparator());
         System.out.println("The sort is performed by Name");
-        for (int i = 0; i < students.length; i++) {
-            if(students[i] != null) {
-                System.out.println(students[i].getName() + " " + students[i].getLastName());
-            }
+        for (Student st :
+                students) {
+            System.out.println(st);
         }
     }
 
     @Override
     public String toString() {
-        String result = "";
-        Student[] array = sort();
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] != null) {
-                result += array[i].getLastName() + " ";
-                result += array[i].getName() + "\n";
-            }
+        StringBuilder sb = new StringBuilder();
+        sort();
+
+        for (Student st :
+                students) {
+            sb.append(st.getLastName());
+            sb.append(", ");
+            sb.append(st.getName());
+            sb.append("\n");
+
         }
-        return "\nThe list of students of " + groupName + ": \n" + result;
+        return "\nThe list of students of " + groupName + ": \n" + sb.toString();
     }
 }

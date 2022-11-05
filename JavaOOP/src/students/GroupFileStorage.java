@@ -9,7 +9,8 @@ public class GroupFileStorage {
     private File file;
 
     public void saveGroupToCSV(Group gr) throws IOException {
-        students = gr.getStudents();
+        students = new Student[gr.getStudents().size()];
+        gr.getStudents().toArray(students);
         file = new File(gr.getGroupName() + ".csv");
 
         try (OutputStream os = new FileOutputStream(file); PrintWriter pw = new PrintWriter(os)) {
@@ -34,7 +35,6 @@ public class GroupFileStorage {
     public Group loadGroupFromCSV(File file) throws IOException, GroupOverflowException {
         clearStudents(students);
         String[] strings = new String[students.length];
-        int i;
         Group group = new Group(file.getName());
         try (InputStream is = new FileInputStream(file); Scanner sc = new Scanner(is)) {
             for (int j = 0; j < strings.length; j++) {

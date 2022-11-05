@@ -28,6 +28,7 @@ public class Main {
             group.addStudent(student4);
             group.addStudent(student5);
             group.addStudent(student6);
+            group.addStudent(student7);
             System.out.println(group.searchStudentByLastName("Lovecraft"));
             System.out.println(group.removeStudentByID(4));
         } catch (GroupOverflowException e) {
@@ -35,20 +36,20 @@ public class Main {
         } catch (StudentNotFoundException e){
             e.printStackTrace();
         }
-//        System.out.println(group.toString());
-//
-//        group.sortStudentsByName();
-//
-//        StudentScanner st = new StudentScanner();
-//        System.out.println(st.toString());
-//        try {
-//            group.addStudent(st.getSt());
-//        } catch (GroupOverflowException e) {
-//            e.printStackTrace();
-//        }
-//        CSVStringConverter csv = new CSVStringConverter();
-//        String s = csv.toStringRepresentation(student1);
-//        System.out.println(csv.fromStringRepresentation(s));
+        System.out.println(group.toString());
+
+        group.sortStudentsByName();
+
+        StudentScanner st = new StudentScanner();
+        System.out.println(st.toString());
+        try {
+            group.addStudent(st.getSt());
+        } catch (GroupOverflowException e) {
+            e.printStackTrace();
+        }
+        CSVStringConverter csv = new CSVStringConverter();
+        String s = csv.toStringRepresentation(student1);
+        System.out.println(csv.fromStringRepresentation(s));
 
 
         GroupFileStorage gfs = new GroupFileStorage();
