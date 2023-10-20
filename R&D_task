@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T12:59:50.177Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="j_9FwAKE0lhqNIl4ZxX6" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T13:10:03.244Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="VdIuprGZ3mwC-MCLid1T" version="22.0.4" type="github">
   <diagram name="Сторінка-1" id="JBVzFRQ2h01Lmt6hYBio">
-    <mxGraphModel dx="8091" dy="5228" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="8578" dy="5503" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -386,7 +386,7 @@
           <mxGeometry x="3465.5" y="2394" width="369" height="95.75" as="geometry" />
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--140" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;Cache&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2151" y="1602" width="180" height="63" as="geometry" />
+          <mxGeometry x="2161" y="1611" width="180" height="63" as="geometry" />
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--144" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;SSL Service&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1620" y="1431" width="288" height="90" as="geometry" />
