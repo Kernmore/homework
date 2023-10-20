@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T23:51:17.119Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="nwG-vjFzfW_naK3A6eRw" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T00:00:33.253Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oXrVIFnQ7NCIp9ymCtbc" version="22.0.4" type="github">
   <diagram name="Сторінка-1" id="JBVzFRQ2h01Lmt6hYBio">
-    <mxGraphModel dx="3897" dy="2203" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2273" dy="1285" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -397,6 +397,15 @@
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--138" value="&lt;h1&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;Uberpanel&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1431" y="3150" width="261" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--139" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;Logs&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2805" y="3006" width="468" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--140" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;Cache&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2805" y="2925" width="468" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--141" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;ToDO&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="2826" width="468" height="117" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
