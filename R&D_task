@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T13:10:03.244Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="VdIuprGZ3mwC-MCLid1T" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T16:48:49.031Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="hLQU5H8w-f_PwdPl_UUV" version="22.0.4" type="github">
   <diagram name="Сторінка-1" id="JBVzFRQ2h01Lmt6hYBio">
-    <mxGraphModel dx="8578" dy="5503" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="7409" dy="4842" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LjlLfSioQCf3G9Kibpo--134" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1260" y="1287" width="2853" height="1881" as="geometry" />
         </mxCell>
-        <mxCell id="1TN6-DLuh8O1wj-qCaVU-1" value="&lt;h3 style=&quot;font-size: 25.04px;&quot;&gt;Notes:&lt;/h3&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 20px;&quot;&gt;For better understanding, some types of tools/services are marked by a color. You can find them below:&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#33ff33&quot;&gt;Green&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; - Internal tools&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 20px;&quot;&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li&gt;&lt;font color=&quot;#33ff33&quot;&gt;Toolkit&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#33ff33&quot;&gt;Ubersmith/Uberpanel&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#33ff33&quot;&gt;hapi&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Orange&lt;/font&gt; - Internal Monitoring/Cloudlinux Monitoring tools&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font color=&quot;#cc99ff&quot;&gt;Purple&lt;/font&gt; - Security/Firewall&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;cPhulk&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;IPTables/CSF&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;ModSecurith&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;HAProxy&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;CXS/ClamAV&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="243" y="2178" width="693" height="693" as="geometry" />
+        <mxCell id="1TN6-DLuh8O1wj-qCaVU-1" value="&lt;h3 style=&quot;font-size: 25.04px;&quot;&gt;Notes:&lt;/h3&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 20px;&quot;&gt;For better understanding, some types of tools/services are marked by a color. You can find them below:&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#33ff33&quot;&gt;Green&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; - Internal tools for managing&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 20px;&quot;&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li&gt;&lt;font color=&quot;#33ff33&quot;&gt;Toolkit&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#33ff33&quot;&gt;Ubersmith/Uberpanel&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#33ff33&quot;&gt;hapi&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;Orange&lt;/font&gt; - Internal Monitoring/Cloudlinux Monitoring tools&lt;/div&gt;&lt;ul style=&quot;border-color: var(--border-color); font-size: 20px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;border-color: var(--border-color);&quot;&gt;MySQL Governor&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Zabbix&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Icinga&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Grafana&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font color=&quot;#cc99ff&quot;&gt;Purple&lt;/font&gt; - Security/Firewall&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;ul style=&quot;font-size: 20px;&quot;&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;cPhulk&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;IPTables/CSF&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;ModSecurity&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;HAProxy&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#cc99ff&quot;&gt;CXS/ClamAV&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;P.S.&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;Also, some services are not shown in the diagram to avoid overloading it and making it more difficult to understand, but they are added to the description document and their interactions is explained there.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="243" y="2178" width="792" height="792" as="geometry" />
         </mxCell>
         <mxCell id="1TN6-DLuh8O1wj-qCaVU-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;cPanel/WHM&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2115" y="2234.75" width="350" height="144.5" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="2585" y="873" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1TN6-DLuh8O1wj-qCaVU-15" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;Shared Storage&lt;/font&gt;&lt;/h1&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2745" y="2079" width="420" height="120" as="geometry" />
+          <mxGeometry x="2631" y="2079" width="420" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1TN6-DLuh8O1wj-qCaVU-16" value="&lt;h1 style=&quot;font-size: 28px;&quot;&gt;CDN&lt;/h1&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2947" y="981" width="320" height="150" as="geometry" />
@@ -43,7 +43,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1TN6-DLuh8O1wj-qCaVU-23" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;Web Server Backend&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;(LSWS)&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2494" y="1611" width="310" height="150" as="geometry" />
+          <mxGeometry x="2511" y="1584" width="310" height="150" as="geometry" />
         </mxCell>
         <mxCell id="1TN6-DLuh8O1wj-qCaVU-24" value="&lt;h1&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;PHP&lt;/span&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1989" y="1868" width="230" height="60" as="geometry" />
@@ -337,19 +337,19 @@
         <mxCell id="LjlLfSioQCf3G9Kibpo--119" value="&lt;h3&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Zone Editor&lt;/font&gt;&lt;/h3&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="LjlLfSioQCf3G9Kibpo--118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--121" value="" style="group;fontSize=20;" vertex="1" connectable="0" parent="1">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--121" value="" style="group;fontSize=20;fillColor=none;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-1008" y="756" width="1089" height="925.36" as="geometry" />
         </mxCell>
-        <mxCell id="1TN6-DLuh8O1wj-qCaVU-10" value="Hypervisor" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=19;" parent="LjlLfSioQCf3G9Kibpo--121" vertex="1">
+        <mxCell id="1TN6-DLuh8O1wj-qCaVU-10" value="Hypervisor" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=19;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="LjlLfSioQCf3G9Kibpo--121" vertex="1">
           <mxGeometry x="36" y="61.36" width="993.6" height="829.64" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--2" value="Virtual Machine 1" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=19;" vertex="1" parent="1TN6-DLuh8O1wj-qCaVU-10">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--2" value="Virtual Machine 1" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=19;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1TN6-DLuh8O1wj-qCaVU-10">
           <mxGeometry x="36" y="64.64" width="441" height="727.36" as="geometry" />
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--171" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;- Cloudlinux&lt;br&gt;- LiteSpeed&lt;br&gt;- MySQL&lt;br&gt;- PHP&lt;br&gt;- cPanel&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--2">
           <mxGeometry x="36" y="72" width="324" height="261" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--168" value="Virtual Machine n" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=20;" vertex="1" parent="1TN6-DLuh8O1wj-qCaVU-10">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--168" value="Virtual Machine n" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=20;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1TN6-DLuh8O1wj-qCaVU-10">
           <mxGeometry x="514.8" y="64.64" width="439.20000000000005" height="727.36" as="geometry" />
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--198" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;- Cloudlinux&lt;br&gt;- LiteSpeed&lt;br&gt;- MySQL&lt;br&gt;- PHP&lt;br&gt;- cPanel&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--168">
@@ -367,7 +367,7 @@
         <mxCell id="LjlLfSioQCf3G9Kibpo--167" value="cPanel account homedir" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="LjlLfSioQCf3G9Kibpo--164">
           <mxGeometry x="117.00000000000001" y="170.18" width="171" height="81.82" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--10" value="Physical Server " style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=19;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--121">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--10" value="Physical Server " style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=19;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--121">
           <mxGeometry width="1089" height="925.36" as="geometry" />
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--120" value="&lt;h3 style=&quot;font-size: 20px;&quot;&gt;another point of view of how cPanel accounts are located on the Namecheap shared server with CloudLinux installed&lt;/h3&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
@@ -386,7 +386,7 @@
           <mxGeometry x="3465.5" y="2394" width="369" height="95.75" as="geometry" />
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--140" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;Cache&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2161" y="1611" width="180" height="63" as="geometry" />
+          <mxGeometry x="2624" y="1485" width="180" height="63" as="geometry" />
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--144" value="&lt;h1&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;SSL Service&lt;/font&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1620" y="1431" width="288" height="90" as="geometry" />
@@ -418,35 +418,53 @@
             <mxPoint x="3614" y="1737" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--181" value="Shared Hosting Environment" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="-1098" y="-522" width="1296" height="2331" as="geometry" />
+        <mxCell id="LjlLfSioQCf3G9Kibpo--181" value="Shared Hosting Environment" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1098" y="-527" width="1296" height="2331" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--183" value="DNS Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--183" value="DNS Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
           <mxGeometry x="27" y="126" width="1233" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--186" value="Database Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=18;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--186" value="Database Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=18;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
           <mxGeometry x="859.5" y="261" width="405" height="319.5" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--187" value="Email Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--228" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;div&gt;- MySQL/MariaDB&lt;/div&gt;&lt;div&gt;- PHPMyAdmin&lt;/div&gt;&lt;div&gt;- Replication&lt;/div&gt;&lt;div&gt;- Database Users&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--186">
+          <mxGeometry x="94.5" y="63" width="234" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--187" value="Email Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
           <mxGeometry x="441" y="261" width="391.5" height="319.5" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--185" value="Web Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=16;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--225" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;div&gt;- Exim: SMTP&lt;/div&gt;&lt;div&gt;- Dovecat: IMAP/POP3&lt;/div&gt;&lt;div&gt;- Webmail&lt;/div&gt;&lt;div&gt;- Jellyfish&lt;/div&gt;&lt;div&gt;- SPAM Filter&lt;/div&gt;&lt;div&gt;- Mailing List&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--187">
+          <mxGeometry x="64.79999999999998" y="72" width="234" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--185" value="Web Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=16;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
           <mxGeometry x="31.5" y="261" width="387" height="319.5" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--199" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;- Cloudlinux&lt;br&gt;- LiteSpeed&lt;br&gt;- MySQL&lt;br&gt;- PHP&lt;br&gt;- cPanel&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--185">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--199" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- LiteSpeed&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;&quot;&gt;- PHP/Perl/Python&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;- Virtual Hosts&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;- .htaccess&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;- Logs &amp;amp; Cache&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--185">
           <mxGeometry x="58.5" y="63" width="234" height="198" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--190" value="File Storage" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
-          <mxGeometry x="443.25" y="621" width="384.75" height="324" as="geometry" />
+        <mxCell id="LjlLfSioQCf3G9Kibpo--190" value="File Storage" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
+          <mxGeometry x="443.25" y="621" width="402.75" height="324" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--194" value="Control Panel" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--227" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;div&gt;- File Manager&lt;/div&gt;&lt;div&gt;- FTPes/SFTP&lt;/div&gt;&lt;div&gt;- Backups/Restore&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--190">
+          <mxGeometry x="83.25" y="63" width="234" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--194" value="Control Panel" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
           <mxGeometry x="36" y="621" width="382.5" height="324" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--195" value="DNS" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--226" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;div&gt;- cPanel/WHM&lt;/div&gt;&lt;div&gt;- SSL Certificate Mgmt&lt;/div&gt;&lt;div&gt;- User Accounts Mgmt&lt;/div&gt;&lt;div&gt;- Softaculous&lt;/div&gt;&lt;div&gt;- Security Features&lt;/div&gt;&lt;div&gt;- DNS Zone Management&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--194">
+          <mxGeometry x="81" y="72" width="234" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--195" value="DNS" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=17;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
           <mxGeometry x="869.63" y="616.5" width="384.75" height="324" as="geometry" />
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--196" value="Email Service" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=19;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
-          <mxGeometry x="72" y="972" width="292.5" height="279" as="geometry" />
+        <mxCell id="LjlLfSioQCf3G9Kibpo--229" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- Zone Editor&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;- domains&#39; zone files&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--195">
+          <mxGeometry x="93.37" y="63" width="234" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--196" value="Email Service" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=19;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
+          <mxGeometry x="72" y="972" width="387" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--230" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;div&gt;- SMTP/POP3/IMAP&lt;/div&gt;&lt;div&gt;- Webmail&lt;/div&gt;&lt;div&gt;- SPAM Filtering&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Autoresponders&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--196">
+          <mxGeometry x="76.5" y="54" width="234" height="198" as="geometry" />
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--197" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Load Balancer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
           <mxGeometry x="585" y="45" width="117" height="36" as="geometry" />
@@ -462,6 +480,9 @@
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--216" value="cPanel account homedir" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="LjlLfSioQCf3G9Kibpo--213">
           <mxGeometry x="117.00000000000001" y="170.18" width="171" height="81.82" as="geometry" />
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--232" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: initial;&quot;&gt;- Operating System&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 21px; background-color: initial;&quot;&gt;- Hardware (e.g., CPU, RAM, Storage)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;- Network Interface&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;- Security (e.g., Firewall)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;- SSH&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="LjlLfSioQCf3G9Kibpo--181">
+          <mxGeometry x="990" y="977" width="234" height="198" as="geometry" />
         </mxCell>
         <mxCell id="LjlLfSioQCf3G9Kibpo--200" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LjlLfSioQCf3G9Kibpo--139" target="LjlLfSioQCf3G9Kibpo--115">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -502,10 +523,38 @@
             <mxPoint x="2444" y="1665" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LjlLfSioQCf3G9Kibpo--223" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.435;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LjlLfSioQCf3G9Kibpo--140" target="LjlLfSioQCf3G9Kibpo--218">
+        <mxCell id="LjlLfSioQCf3G9Kibpo--223" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LjlLfSioQCf3G9Kibpo--140" target="LjlLfSioQCf3G9Kibpo--218">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2484" y="1742" as="sourcePoint" />
             <mxPoint x="2534" y="1692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--233" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.646;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LjlLfSioQCf3G9Kibpo--232" target="LjlLfSioQCf3G9Kibpo--10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-351" y="743" as="sourcePoint" />
+            <mxPoint x="-301" y="693" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--234" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="1TN6-DLuh8O1wj-qCaVU-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2493" y="1638" as="sourcePoint" />
+            <mxPoint x="2025" y="2863" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1332" y="1575" />
+              <mxPoint x="1305" y="2863" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--236" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.986;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LjlLfSioQCf3G9Kibpo--139" target="1TN6-DLuh8O1wj-qCaVU-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3060" y="2417" as="sourcePoint" />
+            <mxPoint x="3110" y="2367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjlLfSioQCf3G9Kibpo--237" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LjlLfSioQCf3G9Kibpo--139" target="1TN6-DLuh8O1wj-qCaVU-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3465" y="2183" as="sourcePoint" />
+            <mxPoint x="3515" y="2133" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
